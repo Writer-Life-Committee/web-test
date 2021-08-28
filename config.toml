@@ -1,6 +1,7 @@
 baseurl = "https://writer-life-committee.github.io/web-test/" # Configure URL. if using gh-pages https://github.com/<username>/hugo-universal-theme URL: https://<username>.github.io/hugo-universal-theme/
 title = "作家の手帖"
-theme = "hugo-universal-theme"
+theme = "universal"
+publishDir = "docs"
 #themesDir = "themes/hugo-universal-theme"
 languageCode = "en-us"
 # Site language. Available translations in the theme's `/i18n` directory.
