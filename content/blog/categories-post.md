@@ -1,5 +1,5 @@
 +++
-title = "Categories Post"
+title = "笠井康平「原稿料400年の歴史――どうして作家は昔からいまいち儲からないのか？」"
 date = "2021-08-01T21:29:20+02:00"
 tags = ["golang", "programming", "theme", "hugo"]
 categories = ["programming","lorem","pseudo"]

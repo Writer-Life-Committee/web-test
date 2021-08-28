@@ -14,3 +14,20 @@
 .box-simple {
     min-height: 230px;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+body, input, select, textarea {
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+.button_wrapper{
+    text-align:center;
+ }
+
+.button {
+   border-radius: 5px;
+   background-color: #005399;
+   padding: 10px;
+   text-decoration: none;
+   color: white;
+ }
