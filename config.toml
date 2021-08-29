@@ -4,7 +4,7 @@ theme = "universal"
 #themesDir = "themes/hugo-universal-theme"
 languageCode = "ja"
 # Site language. Available translations in the theme's `/i18n` directory.
-defaultContentLanguage = "en"
+defaultContentLanguage = "ja"
 # Enable comments by entering your Disqus shortname
 disqusShortname = "devcows"
 # Enable Google Analytics by entering your tracking code
@@ -16,133 +16,83 @@ summaryLength = 70
 # Define the number of posts per page
 paginate = 10
 
+[markup.goldmark.renderer]
+unsafe = true 
+
 [menu]
 
 
 # Main menu
 [[menu.main]]
-    name       = "Home"
-    identifier = "menu.home"
-    url        = "/"
-    weight     = 1
-
-[[menu.main]]
-    name       = "Option 1: Default Page"
-    url        = "/"
-    weight     = 1
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 2: Application"
-    url        = "/"
-    weight     = 2
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 3: Startup"
-    url        = "/"
-    weight     = 3
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 4: Agency"
-    url        = "/"
-    weight     = 4
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "Option 5: Portfolio"
-    url        = "/"
-    weight     = 5
-    parent     = "menu.home"
-
-[[menu.main]]
-    name       = "特徴"
-    identifier = "menu.features"
+    name       = "規約類・事務書類"
+    identifier = "menu.papers"
     url        = "/img/template-easy-customize.png"
     weight     = 3
 
 [[menu.main]]
-    name       = "Shortcodes"
-    identifier = "section.shortcodes"
+    name       = "リーガル"
+    identifier = "section.regal"
     url        = ""
     weight     = 1
-    parent     = "menu.features"
+    parent     = "menu.papers"
     post       = 1
 
 [[menu.main]]
-    name       = "Header variations"
-    identifier = "section.headervariations"
-    url        = ""
-    weight     = 2
-    parent     = "menu.features"
-    post       = 2
-
-[[menu.main]]
-    name       = "Accordions"
+    name       = "団体規約"
     url        = ""
     weight     = 1
-    parent     = "section.shortcodes"
+    parent     = "section.regal"
+    
+[[menu.main]]
+    name       = "業務委託共通規約（仕様書項目、個人情報保護特約を含む）"
+    url        = ""
+    weight     = 1
+    parent     = "section.regal"
 
 [[menu.main]]
-    name       = "Alerts"
+    name       = "業務委託仕様書（執筆者向けひな型・記入例）"
     url        = ""
     weight     = 2
-    parent     = "section.shortcodes"
+    parent     = "section.regal"
 
 [[menu.main]]
-    name       = "Buttons"
+    name       = "「作家の手帖」発注書（テンプレート）"
     url        = ""
     weight     = 3
-    parent     = "section.shortcodes"
+    parent     = "section.regal"
 
 [[menu.main]]
-    name       = "Content Boxes"
+    name       = "「作家の手帖」参加規約"
     url        = ""
     weight     = 4
-    parent     = "section.shortcodes"
+    parent     = "section.regal"
 
 [[menu.main]]
-    name       = "Horizontal Blocks"
+    name       = "「作家の手帖」プライバシーポリシー"
     url        = ""
     weight     = 5
-    parent     = "section.shortcodes"
+    parent     = "section.regal"
 
 [[menu.main]]
-    name       = "Pagination"
-    url        = ""
-    weight     = 6
-    parent     = "section.shortcodes"
-
-[[menu.main]]
-    name       = "Tabs"
-    url        = ""
-    weight     = 7
-    parent     = "section.shortcodes"
-
-[[menu.main]]
-    name       = "Typography"
-    url        = ""
-    weight     = 8
-    parent     = "section.shortcodes"
-
-[[menu.main]]
-    name       = "Default Sticky Header"
+    name       = "執筆依頼"
+    identifier = "section.request"
     url        = ""
     weight     = 1
-    parent     = "section.headervariations"
+    parent     = "menu.papers"
+    post       = 1
 
 [[menu.main]]
-    name       = "No Sticky Header"
+    name       = "共通執筆依頼書"
     url        = ""
-    weight     = 2
-    parent     = "section.headervariations"
-
+    weight     = 1
+    parent     = "section.request"
+    
 [[menu.main]]
-    name       = "Light Header"
+    name       = "執筆応募フォーム"
     url        = ""
-    weight     = 3
-    parent     = "section.headervariations"
+    weight     = 1
+    parent     = "section.request"
+
 
 [[menu.main]]
     name       = "目次"
@@ -160,25 +110,25 @@ paginate = 10
 
 [[menu.main]]
     name       = "【1.企画趣旨】笠井康平"
-    url        = "https://writer-life-committee.github.io/authors-note/kasai.html"
+    url        = "/blog/2021/08/09/kasai"
     weight     = 1
     parent     = "section.portfolio"
 
 [[menu.main]]
     name       = "【4.原稿料】うっかり"
-    url        = ""
+    url        = "/blog/2021/08/14/ukkari/"
     weight     = 2
     parent     = "section.portfolio"
 
 [[menu.main]]
     name       = "【6.契約・交渉】ひらりさ"
-    url        = ""
+    url        = "/blog/2021/08/13/hirarisa/"
     weight     = 3
     parent     = "section.portfolio"
 
 [[menu.main]]
     name       = "【7.選考】伏見瞬"
-    url        = ""
+    url        = "/blog/2021/08/15/fushimi/"
     weight     = 4
     parent     = "section.portfolio"
 
@@ -190,24 +140,24 @@ paginate = 10
 
 [[menu.main]]
     name       = "【15.流通・販売】関口竜平"
-    url        = ""
+    url        = "/blog/2021/08/11/sekiguchi/"
     weight     = 6
     parent     = "section.portfolio"
 
 [[menu.main]]
     name       = "【16.パブリシティ】小澤みゆき"
-    url        = ""
+    url        = "/blog/2021/08/12/ozawa"
     weight     = 7
     parent     = "section.portfolio"
 
 [[menu.main]]
     name       = "【18.財務・会計】poroLogue"
-    url        = ""
+    url        = "/blog/2021/08/15/porologue/"
     weight     = 8
     parent     = "section.portfolio"
 
 [[menu.main]]
-    name       = "About"
+    name       = "準備2号"
     identifier = "section.about"
     url        = ""
     weight     = 2
@@ -215,129 +165,10 @@ paginate = 10
     post       = 2
 
 [[menu.main]]
-    name       = "About Us"
+    name       = "To Bo Continued..."
     url        = ""
     weight     = 1
     parent     = "section.about"
-
-[[menu.main]]
-    name       = "Our Team"
-    url        = ""
-    weight     = 2
-    parent     = "section.about"
-
-[[menu.main]]
-    name       = "Marketing"
-    identifier = "section.marketing"
-    url        = ""
-    weight     = 3
-    parent     = "menu.portfolio"
-    post       = 2
-
-[[menu.main]]
-    name       = "Packages"
-    url        = ""
-    weight     = 1
-    parent     = "section.marketing"
-
-
-[[menu.main]]
-    name       = "All Pages"
-    identifier = "menu.allpages"
-    url        = ""
-    weight     = 4
-
-[[menu.main]]
-    name       = "Home"
-    identifier = "section.ap-home"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 1
-
-[[menu.main]]
-    name       = "About"
-    identifier = "section.ap-about"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 1
-
-[[menu.main]]
-    name       = "Marketing"
-    identifier = "section.ap-marketing"
-    url        = ""
-    weight     = 3
-    parent     = "menu.allpages"
-    post       = 1
-
-[[menu.main]]
-    name       = "Portfolio"
-    identifier = "section.ap-portfolio"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 2
-
-[[menu.main]]
-    name       = "User Pages"
-    identifier = "section.ap-userpages"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 2
-
-[[menu.main]]
-    name       = "Shop"
-    identifier = "section.ap-shop"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 3
-
-[[menu.main]]
-    name       = "Shop - Order Process"
-    identifier = "section.ap-shoporderprocess"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 3
-
-[[menu.main]]
-    name       = "Contact"
-    identifier = "section.ap-contact"
-    url        = ""
-    weight     = 1
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Pages"
-    identifier = "section.ap-pages"
-    url        = ""
-    weight     = 2
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Blog"
-    identifier = "section.ap-blog"
-    url        = "/blog/"
-    weight     = 3
-    parent     = "menu.allpages"
-    post       = 4
-
-[[menu.main]]
-    name       = "Blog Listing Big"
-    url        = "/blog/"
-    weight     = 1
-    parent     = "section.ap-blog"
-
-[[menu.main]]
-    name       = "Blog"
-    identifier = "menu.blog"
-    url        = "/blog/"
-    weight     = 5
 
 [[menu.main]]
     name       = "FAQ"
@@ -346,18 +177,18 @@ paginate = 10
     weight     = 6
 
 [[menu.main]]
-    identifier = "contact"
-    name       = "お問い合わせ"
-    url        = "/contact/"
+    name       = "チケット購入"
+    identifier = "ticket"
+    url        = "https://authors-note.stores.jp/?_ga=2.19211121.852579254.1630027136-147843420.1616418251"
     weight     = 7
 
 
 [params]
     viewMorePostLink = "/blog/"
-    author = "DevCows"
-    defaultKeywords = ["devows", "hugo", "go"]
+    author = "文筆生活向上委員会"
+    defaultKeywords = ["原稿料", "書籍", "編集"]
     mainSections = ["blog"]
-    defaultDescription = "Site template made by devcows using hugo"
+    defaultDescription = "広く原稿料について考えるウェブ同人誌「作家の手帖」のサイトです。"
 
     # Social media
     facebook_site = "" # the Facebook handle of your site ('https://www.facebook.com/HANDLE')
@@ -365,13 +196,6 @@ paginate = 10
     #default_sharing_image = "img/sharing-default.png"
 	default_sharing_image = "img/author-note-banner.png"
 	
-    # Google Maps widget: If `googleMapsApiKey` is not set, no key will be passed to Google (which likely results in a broken map widget).
-    enableGoogleMaps = true
-    googleMapsApiKey = "AIzaSyAv7Sza8NSp9_l_g8G2vlo0H4ydEPn_2jY"
-
-    latitude = "-12.043333"
-    longitude = "-77.028333"
-
     # Style options: default (light-blue), blue, green, marsala, pink, red, turquoise, violet
     style = "default"
 
@@ -409,26 +233,18 @@ paginate = 10
     enableRecaptchaInContactForm = false
     googleRecaptchaKey = "site_key_for_google_recaptcha"
 
-    about_us = "<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>"
-    copyright = "Copyright (c) 2015 - 2016, YourCompany; all rights reserved."
+    about_us = "<p>文筆生活向上委員会（編集長：笠井康平・小澤みゆき）</p>"
+    copyright = "Copyright (c) 2021 , Writer Life Committee; All rights reserved."
 
     # Format dates with Go's time formatting
-    date_format = "January 2, 2006"
+    date_format = "August 28, 2021"
 
-    disabled_logo = false
-    logo_text = "Universal"
+    disabled_logo = true
+    logo_text = "作家の手帖"
 
     logo = "img/logo.png"
-    logo_small = "img/logo-small.png"
-    address = """<p class="text-uppercase"><strong>Universal Ltd.</strong>
-        <br>13/25 New Avenue
-        <br>Newtown upon River
-        <br>45Y 73J
-        <br>England
-        <br>
-        <strong>Great Britain</strong>
-      </p>
-      """
+    logo_small = "img/logo.png"
+    address = """<a href="https://authors-note.stores.jp/items/6078e843d5e9c9671858a8ec/" class="button">チケットを購入する</a>"""
 
 [permalinks]
     blog = "/blog/:year/:month/:day/:filename/"
@@ -436,8 +252,8 @@ paginate = 10
 # Enable and disable widgets for the right sidebar
 [params.widgets]
     categories = true
-    tags = true
-    search = true
+    tags = false
+    search = false
 
 [params.carouselCustomers]
     items = 6
@@ -488,17 +304,16 @@ paginate = 10
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
-    title = "Our Clients"
-    subtitle = ""
-
+    title = "特徴"
+ 
 [params.recent_posts]
     enable = true
     title = "執筆原稿"
     subtitle = "準備1号で執筆いただいたテキストの「初稿」を公開しています。「完成稿」はチケット購入者のみ入手可能です。"
-    hide_summary = false
+    hide_summary = true
 
 [params.footer.recent_posts]
-    enable = true
+    enable = false
 
 [taxonomies]
   category = "categories"

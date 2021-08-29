@@ -1,43 +1,74 @@
 +++
 title = "FAQ"
-description = "Frequently asked questions"
-keywords = ["FAQ","How do I","questions","what if"]
+description = "よくあるご質問"
+keywords = ["FAQ","問い合わせ","質問"]
 +++
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+### チケットを買うと何ができますか
 
-## 1. WHAT TO DO IF I HAVE STILL NOT RECEIVED THE ORDER?
+チケットをお買い求めいただいた方には、次の3つをお渡しします。
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+■完成稿へのアクセス権
+Google Driveの所定のフォルダに対する閲覧権限を発行します。準備号の完成原稿が収録されます。
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+準備号の売れ行きによっては、2021年下半期に第2版として数記事を追加しようと考えています。今回お買い求めの方には、追加記事もそのまま閲覧いただけます。
 
-## 2. WHAT ARE THE POSTAL RATES?
+■全テキストをまとめたPDF/epub
+上述したGoogle Driveには、完成稿の全テキストをまとめたPDFファイルとepubファイルを収録します。どこでもダウンロードできます。
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+■勉強会の招待状
+8月22日に行うオンライン勉強会（非公開）の招待状（紙）を、ご入力いただいたご住所宛てに郵送します。招待状には、勉強会を開催する動画配信サービスの会場URLや、完成稿のPDF/epubを収録したフォルダのURLを記載する予定です。
 
-## 3. DO YOU SEND OVERSEAS?
+オンライン勉強会のご案内はメールアドレス宛てにも送りますので、招待状（紙）は、私たちからの記念とお礼をかたちにしたものとしてお受け取りください。
 
-Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+### だれが寄稿していますか
+4月18日から4月30日にかけて、執筆者・制作スタッフともに依頼・募集します。どなたにご参加いただけるのか、私たちにもまだ分かりません。執筆者が決まったら、特設サイトでお知らせしますので、気になる方は5月連休頃にまたお越しください。
 
-## 4. WHY ARE YOU MORE EXPENSIVE THAN OTHERS?
+### 勉強会はどんな内容ですか
+「先輩的文献の読書会」「ゲストを招いたトーク番組」「準備号の感想会」の3本立てを考えています。4時間ほどの番組になりそうです。
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+勉強会は、オンライン配信され、購読者向けにアーカイヴしますが、公開されません。
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+有料チケットの購入者は、追加費用なしで勉強会に参加できます。勉強会の一般観覧チケットを販売することがあります。
 
-## 5. ANOTHER IMPORTANT QUESTION
+ちなみに勉強会の仮題は、「夏休み特番！真夏のOne Last Summer 8月祭 in 2021　～作家と原稿料をとことん語るぞスペシャル!!～（仮）」です。
 
-Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
+### チケットはいつまで有効ですか
+特別な事情や大きなトラブルがない限り、Google Driveへのアクセス権限はいつまでもお持ちいただけます。PDF/epubの保有期限も設定しません。勉強会は本番1回のみですが、アーカイヴは購読者限定で閲覧できるようにします。
 
-* Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-* Aliquam tincidunt mauris eu risus.
-* Vestibulum auctor dapibus neque.
+### 印刷書籍は売らないのですか
+執筆者の原稿料や制作スタッフの報酬をなるべく多く支払うため、印刷書籍の制作予定はしばらくありません。準備号の売上が好調となり、第2版も一定の購読が見込めそうで、読者のみなさまからのご要望も根強いと分かったら、ブックデザイナーを起用し、印刷書籍の制作を行いたいと考えています。
 
----
+「こんな本がほしい」というアイデアをお持ちの方は、編集長ふたりまでお気軽にご要望ください。
 
-> In case you haven't found the answer for your question please feel free to contact us, our customer support will be happy to help you.
+writer.life.committee[at]gmail.com
+
+### この企画について取材・報道したいです。
+こちらまでお気軽にお問い合わせください。
+
+writer.life.committee[at]gmail.com
+
+次のような情報を前もってお知らせいただけると大変助かります。
+- お名前
+- ご所属
+- ご希望の取材方式（メール／対面）
+- ご都合のつく日程候補
+- 取材内容のご想定（大まかでかまいません）
+
+※新型コロナウイルス感染症の蔓延期につき、必須でない限り、対面取材はオンライン通話か、マスク着用で・対人距離を確保でき・換気の行き届いた場所でお願いいたします。
+
+※編集長ふたりは、平日日中は稼業で働いています。お返事には数日かかることもあります。お急ぎの方は、ふたりのTwitterアカウントまでお声がけください。
+
+### 執筆したい、登壇したい、制作に加わりたいです。
+準備号の協力募集は4月18日から4月30日に行います。執筆・登壇・制作に関わりたい方は、[Googleフォーム](https://docs.google.com/forms/d/e/1FAIpQLSddK7-cYI9zzO6wMjTwGqHf9dcVSErruk5bslFF4HAC5QGtbA/viewform)からご応募ください。
+
+執筆・登壇・制作は気が進まないけれど、原稿料について言いたいことがある、だれかに聞いてほしい体験をしたという方は、「体験談を投稿」することもできます。
+
+### 購読チケット（ショートスピーチ参加）とは何ですか。
+勉強会の「ゲストを招いたトーク番組」と「準備号の感想会」では、登壇者・執筆者にお話しいただく合間に、場面転換の時間を設けます。
+
+購読チケット（ショートスピーチ参加）をお買い求めいただくと、場面転換の時間に、当日ご視聴のみなさまに向けて、3分間の発表を行えるようになります。
+
+発表は、ご自身でお話しいただいても、私たちが代読しても、再生用の音声・映像を前もってお送りいただくのでもかまいません。
+
+「原稿料」をめぐる諸々のことに関心のある、おそらく文筆業・芸術家業または似た／近いお仕事をされている方に、あなたの考え・思いを伝える場としてお使いください。
