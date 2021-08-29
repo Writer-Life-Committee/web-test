@@ -1,0 +1,9 @@
+weight: 1
+title: "じぶんの「つづき」を書こう。"
+description: >
+  <ul class="list-style-none">
+    <li>「作家の手帖」は、広い意味での「原稿料」を主題に展開するウェブ同人誌です。</li>
+    <li><br><a href="https://authors-note.stores.jp/items/6078e843d5e9c9671858a8ec/" class="button">チケットを購入する</a></li>
+  </ul>  
+#image: "img/carousel/template-homepage.png"
+image: "img/author-note-banner.png"
