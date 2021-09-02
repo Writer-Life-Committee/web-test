@@ -1,3 +1,8 @@
-name: "customer-1"
-image: "img/clients/customer-1.png"
-url: "http://www.customer1.com"
+weight: 3
+title: "積立方式で少しずつ完成するマガジン"
+description: >
+  <ul class="list-style-none">
+    <li>初めに目次案を公表して、著者・読者を募集。</li>
+    <li>きちんと報酬を払っても利益が出る原価設計。</li>
+    <li>得られた利益は、次の原稿に投資します。</li>
+  </ul>

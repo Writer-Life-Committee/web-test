@@ -24,86 +24,34 @@ unsafe = true
 
 # Main menu
 [[menu.main]]
-    name       = "規約類・事務書類"
-    identifier = "menu.papers"
+    name       = "企画について"
+    identifier = "menu.project"
     url        = "/img/template-easy-customize.png"
-    weight     = 3
-
+    weight     = 1
 [[menu.main]]
-    name       = "リーガル"
-    identifier = "section.regal"
+    name       = "「作家の手帖」の特徴"
     url        = ""
     weight     = 1
-    parent     = "menu.papers"
-    post       = 1
-
+    parent     = "menu.project"
 [[menu.main]]
-    name       = "団体規約"
-    url        = ""
-    weight     = 1
-    parent     = "section.regal"
-    
-[[menu.main]]
-    name       = "業務委託共通規約（仕様書項目、個人情報保護特約を含む）"
-    url        = ""
-    weight     = 1
-    parent     = "section.regal"
-
-[[menu.main]]
-    name       = "業務委託仕様書（執筆者向けひな型・記入例）"
+    name       = "原稿料とは"
     url        = ""
     weight     = 2
-    parent     = "section.regal"
-
+    parent     = "menu.project"
 [[menu.main]]
-    name       = "「作家の手帖」発注書（テンプレート）"
+    name       = "スケジュール"
     url        = ""
     weight     = 3
-    parent     = "section.regal"
-
-[[menu.main]]
-    name       = "「作家の手帖」参加規約"
-    url        = ""
-    weight     = 4
-    parent     = "section.regal"
-
-[[menu.main]]
-    name       = "「作家の手帖」プライバシーポリシー"
-    url        = ""
-    weight     = 5
-    parent     = "section.regal"
-
-[[menu.main]]
-    name       = "執筆依頼"
-    identifier = "section.request"
-    url        = ""
-    weight     = 1
-    parent     = "menu.papers"
-    post       = 1
-
-[[menu.main]]
-    name       = "共通執筆依頼書"
-    url        = ""
-    weight     = 1
-    parent     = "section.request"
-    
-[[menu.main]]
-    name       = "執筆応募フォーム"
-    url        = ""
-    weight     = 1
-    parent     = "section.request"
-
+    parent     = "menu.project"
 
 [[menu.main]]
     name       = "目次"
     identifier = "menu.portfolio"
-    url        = "/img/template-homepage.png"
-    weight     = 3
+    weight     = 2
 
 [[menu.main]]
     name       = "準備1号"
     identifier = "section.portfolio"
-    url        = ""
     weight     = 1
     parent     = "menu.portfolio"
     post       = 1
@@ -113,54 +61,61 @@ unsafe = true
     url        = "/blog/2021/08/09/kasai"
     weight     = 1
     parent     = "section.portfolio"
+    post       = 2
 
 [[menu.main]]
     name       = "【4.原稿料】うっかり"
     url        = "/blog/2021/08/14/ukkari/"
-    weight     = 2
+    weight     = 1
     parent     = "section.portfolio"
+    post       = 3
 
 [[menu.main]]
     name       = "【6.契約・交渉】ひらりさ"
     url        = "/blog/2021/08/13/hirarisa/"
-    weight     = 3
+    weight     = 1
     parent     = "section.portfolio"
+    post       = 4
 
 [[menu.main]]
     name       = "【7.選考】伏見瞬"
     url        = "/blog/2021/08/15/fushimi/"
-    weight     = 4
+    weight     = 1
     parent     = "section.portfolio"
-
+    post       = 5
+    
 [[menu.main]]
     name       = "【8.執筆】大滝瓶太"
     url        = ""
-    weight     = 5
+    weight     = 1
     parent     = "section.portfolio"
+    post       = 6
 
 [[menu.main]]
     name       = "【15.流通・販売】関口竜平"
     url        = "/blog/2021/08/11/sekiguchi/"
-    weight     = 6
+    weight     = 1
     parent     = "section.portfolio"
+    post       = 6
 
 [[menu.main]]
     name       = "【16.パブリシティ】小澤みゆき"
     url        = "/blog/2021/08/12/ozawa"
-    weight     = 7
+    weight     = 1
     parent     = "section.portfolio"
-
+    post       = 7
 [[menu.main]]
     name       = "【18.財務・会計】poroLogue"
     url        = "/blog/2021/08/15/porologue/"
-    weight     = 8
+    weight     = 1
     parent     = "section.portfolio"
+    post       = 8
 
 [[menu.main]]
     name       = "準備2号"
     identifier = "section.about"
     url        = ""
-    weight     = 2
+    weight     = 1
     parent     = "menu.portfolio"
     post       = 2
 
@@ -171,10 +126,85 @@ unsafe = true
     parent     = "section.about"
 
 [[menu.main]]
+    name       = "規約類・事務書類"
+    identifier = "menu.papers"
+    weight     = 3
+
+[[menu.main]]
+    name       = "リーガル"
+    identifier = "section.regal"
+    weight     = 1
+    parent     = "menu.papers"
+    post       = 1
+
+[[menu.main]]
+    name       = "団体規約"
+    url        = ""
+    weight     = 1
+    parent     = "section.regal"
+    post       = 1
+    
+[[menu.main]]
+    name       = "業務委託共通規約（仕様書項目、個人情報保護特約を含む）"
+    url        = ""
+    weight     = 1
+    parent     = "section.regal"
+    post       = 2
+
+[[menu.main]]
+    name       = "業務委託仕様書（執筆者向けひな型・記入例）"
+    url        = ""
+    weight     = 1
+    parent     = "section.regal"
+    post       = 3
+
+[[menu.main]]
+    name       = "「作家の手帖」発注書（テンプレート）"
+    url        = ""
+    weight     = 1
+    parent     = "section.regal"
+    post       = 4
+
+[[menu.main]]
+    name       = "「作家の手帖」参加規約"
+    url        = ""
+    weight     = 1
+    parent     = "section.regal"
+    post       = 5
+
+[[menu.main]]
+    name       = "「作家の手帖」プライバシーポリシー"
+    url        = ""
+    weight     = 1
+    parent     = "section.regal"
+    post       = 6
+
+[[menu.main]]
+    name       = "執筆依頼"
+    identifier = "section.request"
+    url        = ""
+    weight     = 2
+    parent     = "menu.papers"
+    post       = 2
+
+[[menu.main]]
+    name       = "共通執筆依頼書"
+    url        = ""
+    weight     = 1
+    parent     = "section.request"
+    post       = 1
+    
+[[menu.main]]
+    name       = "執筆応募フォーム"
+    url        = ""
+    weight     = 1
+    parent     = "section.request"
+    post       = 2
+[[menu.main]]
     name       = "FAQ"
     identifier = "menu.faq"
     url        = "/faq/"
-    weight     = 6
+    weight     = 4
 
 [[menu.main]]
     name       = "チケット購入"
@@ -256,7 +286,7 @@ unsafe = true
     search = false
 
 [params.carouselCustomers]
-    items = 6
+    items = 2
     auto_play = false
     slide_speed = 2000
     pagination_speed = 1000
@@ -278,7 +308,7 @@ unsafe = true
 
 [params.features]
     enable = true
-    cols = 6 # Default: 3, Available values 2,3,4,6
+    cols = 1 # Default: 3, Available values 2,3,4,6
     # All features are defined in their own files. You can find example items
     # at 'exampleSite/data/features'.
     # For more informtion take a look at the README.
@@ -288,24 +318,25 @@ unsafe = true
     # All testimonials are defined in their own files. You can find example items
     # at 'exampleSite/data/testimonials'.
     # For more informtion take a look at the README.
-    title = "スタッフ紹介"
-    subtitle = "執筆者とスタッフを公募し、チームで活動を行っています。"
+    title = "準備2号"
+    subtitle = "今秋から製作予定の記事を発表しています。"
 
 [params.see_more]
     enable = true
     icon = "far fa-file-alt"
-    title = "もっと知りたい方へ"
-    subtitle = "README（「作家の手帖（特集：原稿料）」企画書ワーキングドラフト）をごらんください（GitHubのリポジトリページに移動します）。"
-    link_url = "https://github.com/Writer-Life-Committee/authors-note/blob/main/README.md"
-    link_text = "READMEを読む"
+    title = "参加方法"
+    subtitle = "STORESで参加チケットを販売しています。購入すると、次の特典を受け取れます。<ul><li>完成稿（PDF/epub）の入手</li><li>制作過程（草稿/編集稿/初稿/校正稿）の赤入れやコメントの閲覧</li><li>オンライン勉強会のアーカイヴ動画視聴</li><li>参加者コミュニティ（Discord）への参加</li><li>招待状（紙）</li></ul>このささやかな取り組みを支援していただける方は、ぜひ参加チケットをお買い求めください。"
+    link_url = "https://authors-note.stores.jp/?_ga=2.19211121.852579254.1630027136-147843420.1616418251"
+    link_text = "チケットを購入する"
 
 [params.clients]
     enable = true
     # All clients are defined in their own files. You can find example items
     # at 'exampleSite/data/clients'.
     # For more informtion take a look at the README.
-    title = "特徴"
- 
+    title = "ご支援のお願い"
+    subtitle = "ここに寄付ください的な文章が入ります"
+
 [params.recent_posts]
     enable = true
     title = "執筆原稿"
